@@ -1,0 +1,7 @@
+User-agent: *
+
+{{ range .Data.Pages }}
+{{ if .Params.disallow }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
+{{ end }}

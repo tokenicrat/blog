@@ -1,0 +1,45 @@
+# Basic site information
+baseURL: "https://tokenicrat.github.io/"
+title: "词元博客"
+
+
+# Hugo settings
+#  Language
+hasCJKLanguage: true
+languageCode: "zh-CN"
+
+#  Content
+permalinks:
+  page:
+    journal: "/journal/:contentbasename/"
+    gossip: "/gossip/:contentbasename/"
+    tutorial: "/tutorial/:contentbasename/"
+    comic: "/comic/:contentbasename/"
+    review: "/review/:contentbasename/"
+    research: "/research/:contentbasename/"
+  section:
+    journal: "/journal/"
+    gossip: "/gossip/"
+    tutorial: "/tutorial/"
+    comic: "/comic/"
+    review: "/review/"
+    research: "/research/"
+
+#  Generation
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+taxonomies:
+  topic: topics
+
+
+# Theme-specific configuration
+theme: ["counter"]
+params:
+  titleImage: "/title.png"
+  favicon: "/favicon.ico"
+  menu:
+    - name: "❓ 关于"
+      url: "/about/"
+    - name: "📢 话题"
+      url: "/topics/"

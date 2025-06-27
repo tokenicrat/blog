@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul class="article-list">
+    {{ range .Pages }}
+      <li class="article-list item">
+        <a class="article-list title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p class="article-list date-summary">{{ .Date | time.Format ":date_long" }} | {{ .ReadingTime }} min | {{ .Summary | plainify }}</p>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

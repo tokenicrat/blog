@@ -1,0 +1,8 @@
+<div class="navbar">
+    <a href="/"><img src="{{ site.Params.titleImage }}" alt="{{ site.Title }}" height="60px"></a>
+    {{ if site.Params.menu }}
+        {{ range site.Params.menu }}
+            <a href="{{ .url }}">{{ .name }}</a>
+        {{ end }}
+    {{ end }}
+</div>

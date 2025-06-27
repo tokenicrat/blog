@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap');
+
+:root {
+  --background: #f5f5f5;
+  --text: #333333;
+  --link: #007bff;
+  --fade-text: #6c757d;
+  --navbar: #e5e5e5;
+  --edge: #bbbbbb;
+  --img-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #333333;
+    --text: #f5f5f5;
+    --link: #1e90ff;
+    --navbar: #444444;
+    --edge: #555555;
+    --fade-text: #6c757d;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  max-width: 60%;
+  margin: auto;
+  font-size: 16px;
+  font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji", sans-serif;
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  background-color: var(--navbar);
+  color: var(--text);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  border-bottom: 1px solid var(--edge);
+}
+
+.navbar h1 {
+  font-family: "Noto Serif SC";
+  font-size: 1.5rem;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  padding-left: 1rem;
+}
+
+.navbar a {
+  font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji", sans-serif;
+  font-size: 1rem;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif SC", "Noto Color Emoji", serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  color: var(--fade-text);
+  font-size: 0.8rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  border-radius: var(--img-radius);
+  padding: 0.5rem;
+}
+
+img.banner {
+  padding-top: 2rem;
+}
+
+main {
+  padding-top: 60px;
+  font-size: 16px;
+}
+
+.article-list {
+  box-sizing: border-box;
+}
+
+.article-list:first-child {
+  border-top-left-radius: var(--img-radius);
+  border-top-right-radius: var(--img-radius);
+}
+
+.article-list .item:first-child {
+  border-top: 1px solid var(--edge);  
+}
+
+.article-list:last-child {
+  border-bottom-left-radius: var(--img-radius);
+  border-bottom-right-radius: var(--img-radius);
+}
+
+.article-list .date-summary {
+  margin: 0.5rem;
+  color: var(--fade-text);
+  font-size: 0.8rem;
+}
+
+.article-list .title {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.article-list a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.article-list a:hover {
+  text-decoration: none;
+}
+
+.article-list .item {
+  list-style-type: none;
+  border: 1px solid var(--edge);
+  border-top: none;
+  margin-top: -1;
+  padding: 10px;
+}
+
+.just-fade {
+  color: var(--fade-text);
+}
