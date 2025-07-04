@@ -1,5 +1,5 @@
 ---
-title: 叽叽喳喳
+title: ✒️ 叽叽喳喳
 summary: 据说这里的东西是拿 IPoAC 传过来的……
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 计数器
+title: 📟 计数器
 summary: ls /var/log | less
 ---
 
