@@ -1,5 +1,5 @@
 # Basic site information
-baseURL: "https://tokenicrat.github.io/"
+baseURL: "https://blog.crathost.link/"
 title: "词元博客"
 
 
@@ -28,18 +28,14 @@ permalinks:
 #  Generation
 enableRobotsTXT: true
 disableKinds:
-  - taxonomy
-taxonomies:
-  topic: topics
-
+  - "taxonomy"
 
 # Theme-specific configuration
 theme: ["counter"]
 params:
   titleImage: "/title.png"
-  favicon: "/favicon.ico"
+  favicon: "/favicon.png"
   menu:
     - name: "❓ 关于"
       url: "/about/"
-    - name: "📢 话题"
-      url: "/topics/"
+  footer: true

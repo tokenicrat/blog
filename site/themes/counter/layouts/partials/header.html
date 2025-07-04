@@ -1,8 +1,8 @@
 <div class="navbar">
-    <a href="/"><img src="{{ site.Params.titleImage }}" alt="{{ site.Title }}" height="60px"></a>
+    <a class="title" href="/"><img src="{{ site.Params.titleImage }}" alt="{{ site.Title }}"></a>
     {{ if site.Params.menu }}
         {{ range site.Params.menu }}
-            <a href="{{ .url }}">{{ .name }}</a>
+            <a class="nav" href="{{ .url }}">{{ .name }}</a>
         {{ end }}
     {{ end }}
 </div>
