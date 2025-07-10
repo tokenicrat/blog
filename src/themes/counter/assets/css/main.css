@@ -164,3 +164,12 @@ main {
 .just-fade {
   color: var(--fade-text);
 }
+
+.just-fade a {
+  color: var(--fade-text);
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+}

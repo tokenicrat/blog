@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ .Content }}
+  <h1>总览</h1>
+  <ul class="article-list">
+    {{ range site.RegularPages }}
+      <li class="article-list item">
+        <a class="article-list title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p class="article-list summary">{{ .Summary  | plainify }}</p>
+        <p class="article-list date">{{ .Date | time.Format ":date_long" }} | {{ .ReadingTime }} min</p>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

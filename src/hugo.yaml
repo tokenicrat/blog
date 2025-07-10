@@ -8,27 +8,12 @@ title: "词元博客"
 hasCJKLanguage: true
 languageCode: "zh-CN"
 
-#  Content
-permalinks:
-  page:
-    journal: "/:contentbasename/"
-    gossip: "/:contentbasename/"
-    tutorial: "/:contentbasename/"
-    comic: "/:contentbasename/"
-    review: "/:contentbasename/"
-    research: "/:contentbasename/"
-  section:
-    journal: "/journal/"
-    gossip: "/gossip/"
-    tutorial: "/tutorial/"
-    comic: "/comic/"
-    review: "/review/"
-    research: "/research/"
-
 #  Generation
 enableRobotsTXT: true
-disableKinds:
-  - "taxonomy"
+
+#  Content
+taxonomies:
+  topic: topics
 
 # Theme-specific configuration
 theme: ["counter"]
@@ -37,7 +22,9 @@ params:
   favicon: "/favicon.png"
   menu:
     - name: "❓ 关于"
-      url: "/about/"
-    - name: "📦 GitHub"
-      url: "https://github.com/tokenicrat/blog"
+      url: "/about"
+    - name: "🚏 话题"
+      url: "/topics"
+    - name: "🔭 总览"
+      url: "/archives"
   footer: true
