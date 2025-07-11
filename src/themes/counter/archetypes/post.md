@@ -1,6 +1,7 @@
 ---
 title: ""
 summary: ""
+topics: []
 date: "{{ .Date }}"
 draft: false
 katex: false

@@ -1,5 +1,6 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  <p class="just-fade">{{ .Summary }}</p>
   {{ .Content }}
   <ul class="article-list">
     {{ range .Pages }}

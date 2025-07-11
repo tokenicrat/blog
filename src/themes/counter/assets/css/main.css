@@ -7,6 +7,7 @@
   --navbar: #444444;
   --edge: #555555;
   --fade-text: #6c757d;
+  --quote-txt: #008000;
   --img-radius: 2px;
 }
 
@@ -172,4 +173,8 @@ main {
 
 table {
   width: 100%;
+}
+
+blockquote {
+  color: var(--quote-txt);
 }

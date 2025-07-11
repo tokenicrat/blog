@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ .Content }}
-  <h1>系列</h1>
+  <h1>博客组</h1>
   <ul class="article-list">
     {{ range where site.Sections "Path" "not in" (slice "/archives" "/topics") }}
     <li class="article-list item">
