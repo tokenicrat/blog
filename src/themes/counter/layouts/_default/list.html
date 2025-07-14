@@ -7,7 +7,11 @@
       <li class="article-list item">
         <a class="article-list title" href="{{ .RelPermalink }}">{{ .Title }}</a>
         <p class="article-list summary">{{ .Summary | plainify }}</p>
-        <p class="article-list date">{{ .Date | time.Format ":date_long" }} | {{ .ReadingTime }} min</p>
+        <p class="article-list date">
+          {{ .Date | time.Format ":date_long" }}
+          | {{ .ReadingTime }} min
+          {{ if .Params.topics }}| {{ range .Params.topics }}{{ . }}{{ end }}{{ end }}
+        </p>
       </li>
     {{ end }}
   </ul>

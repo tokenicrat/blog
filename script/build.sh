@@ -11,7 +11,7 @@ COLOR_YELLOW="\e[33m"
 COLOR_NONE="\e[0m"
 
 # Hugo version to use
-HUGO_VER="0.147.9"
+HUGO_VER="0.148.0"
 
 # Build settings
 BUILD_CACHE="build_cache"

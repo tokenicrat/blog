@@ -184,3 +184,7 @@ table {
 blockquote {
   color: var(--quote-txt);
 }
+
+code {
+  font-family: "Noto Sans Mono", "Noto Sans CJK SC", "Noto Color Emoji";
+}
