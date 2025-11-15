@@ -1,0 +1,104 @@
+baseURL: "https://blog.bytoken.link/"
+title: 词元计数器
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "词元计数器"
+  description: "418 I'm a teapot | 词元的个人博客"
+  keywords: ["博客", "科技", "开源", "Linux", "Python", "生活"]
+  author: "Tokenicrat 词元"
+  DateFormat: "2006/01/02"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "/favicon.png"
+
+  label:
+    text: "词元计数器"
+    icon: /homeicon.png
+    iconHeight: 32
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: "418 I'm a teapot"
+    Content: "词元和他的小破站，偶尔咕咕咕地发一点东西"
+
+  socialIcons:
+    - name: X
+      url: "https://x.com/tokenicrat"
+    - name: GitHub
+      url: "https://github.com/tokenicrat"
+
+  cover:
+    hidden: false
+    hiddenInList: true
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/tokenicrat/counter/content"
+    Text: "有错误？"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 15
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: "分类"
+      url: "/categories"
+      weight: 10
+    - identifier: tags
+      name: "标签"
+      url: "/tags"
+      weight: 20
+    - identifier: about
+      name: "?"
+      url: "/about"
+      weight: 30
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
