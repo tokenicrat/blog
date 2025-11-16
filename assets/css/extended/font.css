@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans+SC:wght@100..900&display=swap');
-
 body {
-    font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji";
+    font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji", sans-serif;
 }
 
 code {
-    font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji";
+    font-family: "Noto Sans Mono", "Noto Sans SC", "Noto Color Emoji", monospace;
 }
