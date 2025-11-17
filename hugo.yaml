@@ -16,6 +16,13 @@ minify:
   disableXML: true
   minifyOutput: true
 
+security:
+  enableInlineShortcodes: true
+
+outputs:
+  home:
+    - JSON
+
 params:
   env: production
   title: "词元计数器"
@@ -30,7 +37,7 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -93,10 +100,14 @@ menu:
       name: "标签"
       url: "/tags"
       weight: 20
+    - identifier: search
+      name: "搜索"
+      url: "/search"
+      weight: 30
     - identifier: about
       name: "?"
       url: "/about"
-      weight: 30
+      weight: 40
 
 pygmentsUseClasses: true
 markup:

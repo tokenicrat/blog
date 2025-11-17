@@ -1,0 +1,17 @@
+<span
+    style="
+        filter: blur(3px);
+        cursor: pointer;
+        display: inline-block;
+        transition: filter 0.3s ease;
+        user-select: none;
+    "
+    onclick="
+        this.style.filter='none';
+        this.style.cursor='default';
+        this.removeAttribute('onclick');
+        this.style.userSelect='auto';
+    "
+>
+    {{ .Inner }}
+</span>
