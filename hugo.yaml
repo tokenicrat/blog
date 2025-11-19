@@ -1,5 +1,6 @@
 baseURL: "https://blog.bytoken.link/"
 title: 词元计数器
+languageCode: zh-Hans
 theme: PaperMod
 
 enableRobotsTXT: true
