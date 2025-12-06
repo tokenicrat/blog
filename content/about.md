@@ -1,6 +1,6 @@
 ---
 title: "关于"
-date: "2025-11-05"
+date: "2025-11-22"
 description: "词元和词元计数器的自我介绍"
 cover:
   image: "https://blog.static.bytoken.link/about/8242fc32efb861b8d2fa.png"
