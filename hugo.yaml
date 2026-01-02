@@ -34,7 +34,7 @@ params:
   author: "Tokenicrat 词元"
   DateFormat: "2006/01/02"
   defaultTheme: auto
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
