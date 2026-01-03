@@ -53,11 +53,13 @@ params:
   tocopen: false
 
   assets:
-    favicon: "/favicon.png"
+    favicon: "/favicon.webp"
+    favicon16x16: "/favicon16x16.webp"
+    favicon32x32: "/favicon32x32.webp"
 
   label:
     text: "词元计数器"
-    icon: /homeicon.png
+    icon: /homeicon.webp
     iconHeight: 32
 
   profileMode:
