@@ -45,8 +45,9 @@ cover:
 - **2025/07** 注册域名 `bytoken.link`
 - **2025/08** 开始使用子域名 `blog.bytoken.link` 作为博客
   - 由于犯「神经锈蚀综合征」，选择了 Zola + tabi
-  - Cloudflare 托管静态页面，图片托管 [DIY](https://github.com/tokenicrat/pelit) 了一个放在 VPS
+  - Cloudflare 托管静态页面，图片托管 [DIY](https://github.com/tokenicrat/pelit) 了一个放在自己的 VPS 上
 - **2025/11** 迁移到（回）词元更熟悉的 Hugo + PaperMod
-- **2025/11** 图片托管迁移到 Cloudflare R1，形成完整 CaaW，~~然后 CF 就 [崩](https://blog.cloudflare.com/18-november-2025-outage/) 了 :(~~
+- **2025/11** 图片托管迁移到 Cloudflare R1
+- **2026/01** WebP 压缩效率恐怖如斯，遂全面换用
 
 {{< /details >}}

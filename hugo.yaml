@@ -81,7 +81,7 @@ params:
     hiddenInSingle: false
 
   editPost:
-    URL: "https://github.com/tokenicrat/counter/content"
+    URL: "https://github.com/tokenicrat/blog/tree/main/content"
     Text: "有错误？"
     appendFilePath: true
 

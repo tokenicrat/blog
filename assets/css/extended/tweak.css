@@ -17,6 +17,10 @@ details {
     padding: 10px 14px;
 }
 
+details code {
+    background: var(--theme) !important;
+}
+
 details[open] > summary {
     margin-bottom: 10px;
 }
